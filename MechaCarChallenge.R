@@ -36,3 +36,17 @@ lot_summary <- suspension_data %>%
 
 lot_summary
   
+# Deliverable 3 
+
+# Is PSI of dataset different from population mean of 1,500? 
+t.test(suspension_data$PSI, mu=1500)
+
+?t.test
+
+t.test(suspension_data$PSI, mu=1500, subset= Manufacturing_Lot %in% c(Lot1))
+t.test(suspension_data$PSI, mu=1500, subset= Manufacturing_Lot %in% c(Lot2))
+t.test(suspension_data$PSI, mu=1500, subset= Manufacturing_Lot %in% c(Lot3))
+
+
+
+
