@@ -1,5 +1,7 @@
 # MechaCar_Statistical_Analysis
 
+Source code: MechaCarChallenge.R
+
 ## Linear Regression to Predict MPG
 - We used multiple linear regression to predict mpg. 
 - Vehicle length and ground clearance provided a non-random amount of variance to the mpg values 
@@ -30,5 +32,3 @@ Alternative hypothesis - MechaCar has a significantly higher safety rating on av
 ### Methodology
 - One-tailed two-sample t-test (since we are explicitly saying that MechaCar will have a higher safety rating, not that there is simply a difference in safety ratings). 
 - We will collect safety ratings on every single car model that both MechaCar and the competition has in its inventory to collect the necessary data for the t-test 
-
-Source code: MechaCarChallenge.R
