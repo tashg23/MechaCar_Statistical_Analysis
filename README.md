@@ -17,5 +17,6 @@
 - The t-test confirms that Lot 3 has a PSI that is statistically different from the population mean of 1500 pounds per square inch. The PSI of Lot 3, when compared to the population mean, has a p-value of 0.04. Lots 1 and 2 were not statistically different from the population mean. See images below. 
 
 ![Lot1](https://user-images.githubusercontent.com/113721712/227821591-86150427-7e95-49b2-ad1d-3bf7385d0fc8.png)
+
 ![Lot2](https://user-images.githubusercontent.com/113721712/227821596-ea5c4756-1b11-4896-97fd-bf6be29c04f0.png)
 ![Lot3](https://user-images.githubusercontent.com/113721712/227821598-3a30da7c-483c-48cd-b77d-ee6bb9753330.png)
