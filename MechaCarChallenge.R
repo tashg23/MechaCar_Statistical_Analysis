@@ -41,11 +41,23 @@ lot_summary
 # Is PSI of dataset different from population mean of 1,500? 
 t.test(suspension_data$PSI, mu=1500)
 
-?t.test
+Lot1 <- subset(suspension_data, Manufacturing_Lot == "Lot1")
 
-t.test(suspension_data$PSI, mu=1500, subset= Manufacturing_Lot %in% c(Lot1))
-t.test(suspension_data$PSI, mu=1500, subset= Manufacturing_Lot %in% c(Lot2))
-t.test(suspension_data$PSI, mu=1500, subset= Manufacturing_Lot %in% c(Lot3))
+Lot1
+
+t.test(Lot1$PSI, mu=1500)
+
+Lot2 <- subset(suspension_data, Manufacturing_Lot == "Lot2")
+
+Lot2
+
+t.test(Lot2$PSI, mu=1500)
+
+Lot3 <- subset(suspension_data, Manufacturing_Lot == "Lot3")
+
+Lot3
+
+t.test(Lot3$PSI, mu=1500)
 
 
 
