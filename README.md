@@ -21,3 +21,14 @@
 ![Lot2](https://user-images.githubusercontent.com/113721712/227821596-ea5c4756-1b11-4896-97fd-bf6be29c04f0.png)
 
 ![Lot3](https://user-images.githubusercontent.com/113721712/227821598-3a30da7c-483c-48cd-b77d-ee6bb9753330.png)
+
+## Study Design: MechaCar vs Competition 
+Study 1:
+Null hypothesis - MechaCar has the same safety ratings on average as the competition 
+Alternative hypothesis - MechaCar has a significantly higher safety rating on average compared to the competition 
+
+### Methodology
+- One-tailed two-sample t-test (since we are explicitly saying that MechaCar will have a higher safety rating, not that there is simply a difference in safety ratings). 
+- We will collect safety ratings on every single car model that both MechaCar and the competition has in its inventory to collect the necessary data for the t-test 
+
+Source code: MechaCarChallenge.R
